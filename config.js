@@ -8,26 +8,26 @@ import axios from 'axios'
 import moment from 'moment-timezone' 
 
 global.owner = [
-  ['5219992095479', '👑 Mystic - Creador 👑', true],
-  ['50499698072', '💫 Mystic - Collaborator 1 💫', true],
-  ['51940617554', '💫 Mystic - Collaborator 2 💫', true],
-  ['51996089079', '💫 Mystic - Collaborator 3 💫', true],
-  ['573225236629', '💫 Mystic - Collaborator 4 💫', true],
-  ['593959425714', '💫 Mystic - Collaborator 5 💫', true],
-  ['50246028932', '💫 Mystic - Collaborator 6 💫', true],  
+  ['34603022140', '👑 Ҝ乇ᐯ-乃ㄖㄒ - Creador 👑', true],
+  ['34603022140', '💫 Ҝ乇ᐯ-乃ㄖㄒ - Collaborator 1 💫', true],
+  ['51940617554', '💫 Ҝ乇ᐯ-乃ㄖㄒ - Collaborator 2 💫', false],
+  ['51996089079', '💫 Ҝ乇ᐯ-乃ㄖㄒ - Collaborator 3 💫', false],
+  ['573225236629', '💫 Ҝ乇ᐯ-乃ㄖㄒ - Collaborator 4 💫', false],
+  ['593959425714', '💫 Ҝ乇ᐯ-乃ㄖㄒ - Collaborator 5 💫', false],
+  ['50246028932', '💫 Ҝ乇ᐯ-乃ㄖㄒ - Collaborator 6 💫', false],  
   ['593968585283'],
   ['5219993404349'],
   //['593968585383'],	
   ['5219996125657']
 ] 
 
-global.suittag = ['5219993404349'] 
-global.prems = ['51995386439'] 
+global.suittag = ['34603022140'] 
+global.prems = ['34603022140'] 
 
 global.packname = '(☞ﾟ∀ﾟ)☞'
-global.author = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.wm = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.igfg = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
+global.author = '★Ҝ乇ᐯ-乃ㄖㄒ★'
+global.wm = '★Ҝ乇ᐯ-乃ㄖㄒ★'
+global.igfg = '★Ҝ乇ᐯ-乃ㄖㄒ★'
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -429,15 +429,15 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝`
-global.gt = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.mysticbot = '★𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝★'
-global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
-global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ Ҝ乇ᐯ-乃ㄖㄒ`
+global.gt = '★Ҝ乇ᐯ-乃ㄖㄒ★'
+global.mysticbot = '★Ҝ乇ᐯ-乃ㄖㄒ★'
+global.md = ''
+global.mysticbot = ''
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waittt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
 global.waitttt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*'
-global.nomorown = '5219993404349'
+global.nomorown = '34603022140'
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf']
 global.cmenut = '❖––––––『'
 global.cmenub = '┊✦ '
